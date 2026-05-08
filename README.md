@@ -28,9 +28,7 @@ ViT-B encoder and decoder trained on Kinetics-700. Reconstruction quality is mea
 | Horizon | VSPW mIoU (↑) | Cityscapes mIoU (↑) | KITTI RMSE (↓) |
 |---------|---------------|---------------------|----------------|
 | Short (1 frame) | 58.6 | 69.6 | 2.78 |
-| Mid (3 frames)* | 58.5 | 67.9 | 2.86 |
-
-*Parallel encoding from ground-truth frames with autoregressive decoding from previous reconstructions.
+| Mid (3 frames) | 58.5 | 67.9 | 2.86 |
 
 ### DeltaWorld (Predictor) [![Download](https://img.shields.io/badge/Download-deltaworld--kinetics-FFD21E?labelColor=555)](https://huggingface.co/Amazon-FAR/deltaworld-kinetics)
 
