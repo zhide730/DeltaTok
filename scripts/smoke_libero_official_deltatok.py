@@ -116,7 +116,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--decode-backend",
         choices=("rgb_head", "raev2", "none"),
-        default="rgb_head",
+        default="raev2",
         help="Feature-to-RGB visualization backend.",
     )
     parser.add_argument(
