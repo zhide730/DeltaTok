@@ -1,5 +1,9 @@
 .env
 datasets/.cache/
+assets/
+.venv-smoke/
+runs/
+outputs/
 
 __pycache__/
 *.py[codz]
